@@ -1,24 +1,5 @@
-# vue
+# Anggota
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Rahmad Aji Wicaksono - 5027221034
+Naufan Zaki Luqmanulhakim - 5027221065
+Rafif Dhimaz Ardhana - 5027221066
