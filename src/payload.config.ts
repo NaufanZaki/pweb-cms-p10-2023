@@ -13,6 +13,7 @@ import log from './collections/log'
 
 // /src/payload.config.ts
 export default buildConfig({
+  CORS: '*' ,
   admin: {
     user: Users.slug,
     bundler: webpackBundler(),

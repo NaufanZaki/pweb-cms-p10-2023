@@ -64,7 +64,7 @@ export default {
   setup(){
     async function loadTodos() {
       try {
-        const response = await axios.get('${API_BASE_URL}/api/Todo');
+        const response = await axios.get(`${API_BASE_URL}/api/Todo`);
         todos.value = response.data.docs;
       } catch (error) {
         console.error('Error loading todos:', error);
@@ -73,7 +73,7 @@ export default {
 
     async function loadCategories() {
       try {
-        const response = await axios.get('${API_BASE_URL}/api/Category');
+        const response = await axios.get(`${API_BASE_URL}/api/Category`);
         categories.value = response.data.docs;
       } catch (error) {
         console.error('Error loading categories:', error);
